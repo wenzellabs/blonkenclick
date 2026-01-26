@@ -4,9 +4,9 @@ a blinken clock.
 
 ![blonkenclick showing time](pic/blonkenclick_time.jpg)
 
-a beginner's solder kit with a fancy RGB 16 segment display (4 or 6 digit flavours), a realtime clock, a temperature sensor around an ESP32 microprocessor running micropython.
+a beginner's solder kit with a fancy RGB 16 segment display (6 digits wide), a realtime clock, a temperature sensor around an ESP32 microprocessor running micropython.
 
-As a display it uses our [digitus16](https://github.com/wenzellabs/digitus16) 16 segment display, either 4 or 6 digits wide.
+As a display it uses our [digitus16](https://github.com/wenzellabs/digitus16) 16 segment display.
 
 ![blonkenclick showing temperature](pic/blonkenclick_temperature.jpg)
 
@@ -25,7 +25,7 @@ As a display it uses our [digitus16](https://github.com/wenzellabs/digitus16) 16
 |    1     |  R2    | 10 kOhm resistor            | we may want to reduce the val once we see a real 5528 |
 |    1     |  U2    | RTC module                  | here your time is kept even when unplugged, running from the CR2032 |
 |    1     |  U1    | ESP32 C3 super mini         | small processor board with red "C3" labelled antenna and USB-C |
-|    1     |   -    | digitus16 4/6 digits        | 4 or 6 digits 16-segment RGB display |
+|    1     |   -    | digitus16 6 digits          | 6 digits 16-segment RGB display |
 |    1     |   -    | CR2032 battery              | for the RTC module  |
 | enough   |   -    | pins                        | for mounting all modules and the optional UART header |
 |          |        |                             |                     |
