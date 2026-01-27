@@ -25,6 +25,7 @@ As a display it uses our [digitus16](https://github.com/wenzellabs/digitus16) 16
 |    1     |  R2    | 10 kOhm resistor            | we may want to reduce the val once we see a real 5528 |
 |    1     |  U2    | RTC module                  | here your time is kept even when unplugged, running from the CR2032 |
 |    1     |  U1    | ESP32 C3 super mini         | small processor board with red "C3" labelled antenna and USB-C |
+|    1     |   -    | DS18B20 temp sens           | DS18B20 1-wire digital temperature sensor |
 |    1     |   -    | digitus16 6 digits          | 6 digits 16-segment RGB display |
 |    1     |   -    | CR2032 battery              | for the RTC module  |
 | enough   |   -    | pins                        | for mounting all modules and the optional UART header |
