@@ -80,7 +80,6 @@ TL;DR: assemble the PCB by going through the **Parts List** top to bottom.
 ## License
 
 licensed under the **CERN Open Hardware Licence Version 2 - Strongly Reciprocal**
-TBD
 
 see [LICENSE.txt](LICENSE.txt) for details.
 
